@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The template for displaying all pages
@@ -14,6 +15,9 @@
 
 get_header();
 ?>
+
+<div class="center-content">
+
 
 	<main id="primary" class="site-main">
 
@@ -32,7 +36,7 @@ get_header();
 		?>
 
 	</main><!-- #main -->
+	</div>
 
 <?php
-get_sidebar();
-get_footer();
+
